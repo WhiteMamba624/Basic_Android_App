@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "46058968750",
+    "project_id": "homework-1caa9",
+    "storage_bucket": "homework-1caa9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46058968750:android:2b0111a2e5f1921ad53f3f",
+        "android_client_info": {
+          "package_name": "ro.ibm.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46058968750-ultut9srltmkcs81bkcdo8ip1tf97o50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmgluEjoYuAQIm62UCMo9La45KDqJh5BE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46058968750-ultut9srltmkcs81bkcdo8ip1tf97o50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

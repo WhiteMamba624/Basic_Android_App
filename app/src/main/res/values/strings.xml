@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title">Login</string>
+    <string name="recovery">Forgot your password?</string>
+    <string name="alternative">Or sign up with social account </string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="google">Google Sign Up</string>
+    <string name="facebook">Facebook Sign Up</string>
+    <string name="backButton">Back Button</string>
+    <string name="welcome">Welcome </string>
+    <string name="title_activity_welcome_screen">WelcomeScreen</string>
+    <string name="emptyEmail">Please fill the email field</string>
+    <string name="emptyPassword">Please fill the password field</string>
+    <string name="invalidEmail">Invalid email format</string>
+    <string name="permission">Allow permissions</string>
+    <string name="registerText">If you do not have an account you can register here </string>
+    <string name="register">Register</string>
+    <string name="destination">Destination</string>
+    <string name="this_is_a_simple_destination">This is a simple destination</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="terms">Please agree with the terms</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

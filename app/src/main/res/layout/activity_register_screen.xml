@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterScreen">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/register">
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/password"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@id/cardViewPasswordRegister"
+            app:layout_constraintTop_toTopOf="@id/cardViewPasswordRegister" />
+
+        <EditText
+            android:id="@+id/textPasswordRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="17dp"
+            android:autofillHints="null"
+            android:background="@null"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@id/cardViewEmailRegister"
+            app:layout_constraintEnd_toEndOf="@id/cardViewEmailRegister"
+            app:layout_constraintStart_toStartOf="@id/cardViewEmailRegister"
+            app:layout_constraintTop_toBottomOf="@id/password" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewEmailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/cardViewPasswordRegister">
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/email"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@id/cardViewEmailRegister"
+            app:layout_constraintTop_toTopOf="@id/cardViewEmailRegister" />
+
+        <EditText
+            android:id="@+id/textEmailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="17dp"
+            android:autofillHints="null"
+            android:background="@null"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@id/cardViewEmailRegister"
+            app:layout_constraintStart_toStartOf="@id/cardViewEmailRegister"
+            app:layout_constraintTop_toBottomOf="@id/email" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/rounded_corner"
+        android:text="@string/register"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.50" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTerms"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.10"
+        app:layout_constraintStart_toStartOf="@id/register"
+        app:layout_constraintTop_toBottomOf="@id/register"
+        app:layout_constraintWidth_percent="0.10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms"
+        app:layout_constraintStart_toEndOf="@id/checkBoxTerms"
+        app:layout_constraintTop_toBottomOf="@id/register"
+        app:layout_constraintBottom_toBottomOf="@id/checkBoxTerms"
+        android:gravity="bottom"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
